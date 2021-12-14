@@ -1,0 +1,42 @@
+.what-we-do-section {
+  background-color: v#FFFFFF;
+  padding-top: 0;
+}
+
+.what-we-do-img {
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+}
+
+.what-we-do-img-list {
+  position: relative;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.what-we-do-title {
+  color: var(--general_text_color);
+  @include font(36px, 700, 1.16, 0.03em);
+  text-align: Center;
+  margin-bottom: 50px;
+}
+
+.what_we_do_owerlay {
+  position: relative;
+}
+
+.overlay_title {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(47, 48, 58, 0.8);
+  @include size(100%, 70px);
+  @include font(14px, 700, 1.17, 0.03em);
+  text-align: center;
+}

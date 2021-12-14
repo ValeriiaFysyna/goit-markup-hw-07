@@ -1,0 +1,50 @@
+.feautures-section {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.feautures-list {
+  display: flex;
+  align-items: center;
+}
+
+.feautures-items:not(:last-child) {
+  margin-right: 30px;
+}
+
+.feautures-title {
+  color: var(--general_text_color);
+  @include font(14px, 700, 1.14, 0.03em);
+
+  align-items: left;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.feautures-text {
+  color: var(--secondary_text_color);
+  @include font(14px, 400, 1.7, 0.03em);
+
+  text-align: left;
+
+  max-width: 270px;
+}
+
+.feautures-picture-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  background-color: var(--secondary_background_color);
+  border-radius: 4px;
+  height: 120px;
+}
+
+.feautures-picture {
+  background-color: var(--secondary_background_color);
+  @include size(70px, 70px);
+
+  justify-content: center;
+}
