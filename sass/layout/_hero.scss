@@ -1,6 +1,5 @@
-.hero-section {
+.hero {
   padding: 94px 0 94px 0;
-
   background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.4),
@@ -9,15 +8,6 @@
     url(../images/header_image.jpg);
   background-size: cover;
   background-size: no-repeat;
-}
-
-.hero-section-main {
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-}
-
-.hero-section {
   background-color: var(--background_color);
   text-align: center;
   max-width: 1600px;
@@ -27,7 +17,13 @@
   padding-top: 200px;
 }
 
-.hero-title {
+.hero__main {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.hero__title {
   color: #ffffff;
   @include font(44px, 900, 1.36, 0.06em);
   text-align: center;
@@ -36,7 +32,7 @@
   margin: 0 auto 30px;
 }
 
-.button {
+.hero__button {
   background-color: var(--links_and_buttons_color);
   color: var(--white_color);
   font-family: roboto;
@@ -44,6 +40,5 @@
   text-align: center;
   border-radius: 4px;
   cursor: pointer;
-
   padding: 10px 32px 10px 32px;
 }

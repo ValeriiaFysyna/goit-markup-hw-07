@@ -1,11 +1,12 @@
-.main-section-container {
+.main-section__container {
   display: flex;
   flex-direction: column;
 }
 
-.portfolio_filter_part {
-  display: flex;
-}
+// .portfolio_filter_part {
+//   display: flex;
+// }
+
 .portfolio-filter {
   display: flex;
   margin: 0 auto;
@@ -13,7 +14,7 @@
   justify-content: center;
 }
 
-.portfolio-buttons {
+.portfolio-filter__list {
   display: block;
   display: flex;
 
@@ -22,7 +23,7 @@
   }
 }
 
-.portfolio-filter-button {
+.portfolio-filter__button {
   background-color: var(--secondary_background_color);
   color: var(--general_text_color);
   @include font(16px, 500, 1.6, 0.03em);
