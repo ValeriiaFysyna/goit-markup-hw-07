@@ -1,10 +1,10 @@
-.clients_container {
+.clients__container {
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
   margin: 0 auto;
 }
-.clients_section_title {
+.clients__title {
   color: var(--general_text_color);
 
   @include font(36px, 700, 1.16, 0.03em);
@@ -14,12 +14,12 @@
   margin-bottom: 50px;
 }
 
-.clients_list {
+.clients__list {
   display: flex;
   justify-content: space-between;
 }
 
-.clients_item {
+.clients__link {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -39,15 +39,15 @@
   }
 }
 
-.clients_item:not(:last-child) {
+.clients__link:not(:last-child) {
   margin-right: 10px;
 }
 
-.clients_item:hover .clients_picture {
+.clients__link:hover .clients_picture {
   fill: var(--links_and_buttons_color);
 }
 
-.clients_picture {
+.clients__picture {
   @include size(106px, 60px);
 
   fill: var(--borders_color);

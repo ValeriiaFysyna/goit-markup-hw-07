@@ -380,7 +380,7 @@
               />
               <h5 class="our-team__name">Михаил Ермаков</h5>
               <p lang="en" class="our-team__profession">UI Designer</p>
-                            <ul class="social-network-list our-team__social-list">
+              <ul class="social-network-list our-team__social-list">
                 <li class="social-network-list__item">
                   <a
                     class="
@@ -431,57 +431,59 @@
                   </a>
                 </li>
               </ul>
+            </li>
+          </ul>
         </div>
       </section>
     </main>
 
-    <section class="clients_section section">
-      <div class="clients_container container">
-        <h3 class="clients_section_title">Постоянные клиенты</h3>
-        <ul class="clients_list">
-          <li class="clients_list_item">
-            <a class="clients_item">
-              <svg class="clients_picture">
+    <section class="clients section">
+      <div class="clients__container container">
+        <h3 class="clients__title">Постоянные клиенты</h3>
+        <ul class="clients__list">
+          <li class="clients__item">
+            <a class="clients__link">
+              <svg class="clients__picture">
                 <use href="./images/icons.svg#icon-company_1"></use>
               </svg>
             </a>
           </li>
 
-          <li class="clients_list_item">
-            <a class="clients_item">
-              <svg class="clients_picture">
+          <li class="clients__item">
+            <a class="clients__link">
+              <svg class="clients__picture">
                 <use href="./images/icons.svg#icon-company_2"></use>
               </svg>
             </a>
           </li>
 
-          <li class="clients_list_item">
-            <a class="clients_item">
-              <svg class="clients_picture">
+          <li class="clients__item">
+            <a class="clients__link">
+              <svg class="clients__picture">
                 <use href="./images/icons.svg#icon-company_3"></use>
               </svg>
             </a>
           </li>
 
-          <li class="clients_list_item">
-            <a class="clients_item">
-              <svg class="clients_picture">
+          <li class="clients__item">
+            <a class="clients__link">
+              <svg class="clients__picture">
                 <use href="./images/icons.svg#icon-company_4"></use>
               </svg>
             </a>
           </li>
 
-          <li class="clients_list_item">
-            <a class="clients_item">
-              <svg class="clients_picture">
+          <li class="clients__item">
+            <a class="clients__link">
+              <svg class="clients__picture">
                 <use href="./images/icons.svg#icon-company_5"></use>
               </svg>
             </a>
           </li>
 
-          <li class="clients_list_item">
-            <a class="clients_item">
-              <svg class="clients_picture">
+          <li class="clients__item">
+            <a class="clients__link">
+              <svg class="clients__picture">
                 <use href="./images/icons.svg#icon-company_6"></use>
               </svg>
             </a>
@@ -627,7 +629,7 @@
         </button>
 
         <p class="modal__title">Оставьте свои данные, мы вам перезвоним</p>
-        <form class="main-modal-form" action="">
+        <form class="main-modal-form">
           <div class="input-form">
             <label class="input-form__title" for="name">Имя</label>
             <input
@@ -693,13 +695,19 @@
                   <use href="./images/icons.svg#icon-check"></use>
                 </svg>
               </span>
-              Соглашаюсь с рассылкой и принимаю &nbsp
-              <a href="" class="accept-conditions__link"> Условия договора</a>
+              Соглашаюсь с рассылкой и принимаю &amp;bsp<a
+                href=""
+                class="accept-conditions__link"
+              >
+                Условия договора</a
+              >
             </label>
           </div>
 
           <div class="modal-sending">
-            <button type="submit" class="modal-sending__button">Отправить</button>
+            <button type="submit" class="modal-sending__button">
+              Отправить
+            </button>
           </div>
         </form>
       </div>
